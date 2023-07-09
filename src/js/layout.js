@@ -19,7 +19,7 @@ const Layout = () => {
 					<Routes>
 						<Route path="/" element={<ContactListPage />} />
 						<Route path="/add-contact" element={<AddContactPage />} />
-						{/* <Route path="/" element={<EditContactPage />} /> */} 
+						{/* <Route path="/" element={<EditContactPage />} />  */}
 						<Route path="*" element={<h1>Not found!</h1>} />
 					</Routes>
 				</ContextProvider>

@@ -26,7 +26,7 @@ export default function AddContactPage() {
     return (
         <div className="outside">
             <div className="container-fluid">
-                <h1 className="contact-h1">Add a new contact</h1>
+                <h1 className="add-contact-h1">Add a new contact</h1>
                 <form className="addinput" action="" onSubmit={onSubmit}>
                     <div className="mb-3">
                         <label htmlFor="nameInput" className="form-label">Full Name</label>

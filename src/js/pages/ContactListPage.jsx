@@ -8,14 +8,9 @@ export default function ContactListPage() {
 
   return (
     <div>
-      <h1>Contact List Page</h1>
+      <h1 className="cl-h1">Contact List Page</h1>
       
-      <button
-        onClick={() =>
-          dispatch(contactListActions.ADD_CONTACT({ name: "Add something else" }))
-        }
-      >
-        Add test Contact
+      <button onClick={() => dispatch(contactListActions.ADD_CONTACT({ name: "Add something else" }))}class="btn-1 btn-primary">Add New Contact
       </button>
       {state.contacts.map((contact) => (
         <div key={contact.id}>

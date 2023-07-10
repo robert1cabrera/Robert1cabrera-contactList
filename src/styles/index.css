@@ -17,11 +17,15 @@ body {
     
 }
 
-.contact-h1 {
+.add-contact-h1 {
     text-align: center;
     padding: 30px;
     color: black;
     font-size: 40px;
+}
+.cl-h1{
+text-align: center;
+color: black;
 }
 .form-label{
     color: black;

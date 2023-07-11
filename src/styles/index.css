@@ -23,10 +23,6 @@ body {
     color: black;
     font-size: 40px;
 }
-.cl-h1{
-text-align: center;
-color: black;
-}
 .form-label{
     color: black;
 }
@@ -35,4 +31,26 @@ input {
 }
 .btn {
     width: 100%;
+}
+.btn-cl {
+    width: 15%;
+    float: right;
+    margin-right: 25px;
+}
+.cl-div {
+    background: white;
+    height: auto;
+    }
+.cl-h1{
+    text-align: center;
+    color: black;
+    padding: 30px;
+    }
+.cl-img {
+    padding: 15px;
+    border-radius: 50%;
+}
+.cl-div1 {
+    border: 1px solid grey;
+    padding: 25px;
 }
